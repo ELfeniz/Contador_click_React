@@ -1,0 +1,28 @@
+button {
+    width: 250px;
+    height: 80px;
+    font-size: 35px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;  /* peso de la letra */
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 15px;    /* phacer las puntas mas redondeadas*/
+    margin: 5px;
+    cursor: pointer;  /* sirver para imitar caracteristicas de boton  */
+}
+
+button:hover {   /* cuando el mouse esta encima del botóns*/
+
+background-color: rgb(9, 255, 0);
+
+}
+
+.boton-clic{
+
+    background-color: blue;
+}
+
+.boton-reiniciar{
+
+    background-color: rgb(102, 52, 146);
+}

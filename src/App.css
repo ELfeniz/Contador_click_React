@@ -1,0 +1,62 @@
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html, body{
+
+  background-color: rgb(161, 29, 29);
+}
+
+.app{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-family: Lato, sans-serif;
+}
+
+.freecodecamp-logo-contenerdor{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.freecodecamp-logo{
+
+ height: 250px;
+ width: 800px;
+}
+
+
+.contenedor-principal{
+
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;  /* este aliniado uno debajo del otro*/
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.materialice{
+
+  height: 550px;
+  min-width: 600px;
+  align-items: center;
+  display: flex;
+  justify-content: center ;
+}
+
+.lol{
+
+  height: 250px;
+  width: 100px;
+}
